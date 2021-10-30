@@ -5,6 +5,18 @@ const fs = require("fs")
 
 operation()
 
+/*
+do {
+    const doExit = false;
+    function sair() {
+        doExit = true;
+    }
+    function outraOperacao() {
+        //executa e termina sem colocar nada, nem return precisa
+    }
+} while (!doExit)
+*/
+
 function operation() {
     inquirer.prompt([
         {
